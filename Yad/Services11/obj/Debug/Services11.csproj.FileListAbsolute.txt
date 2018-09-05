@@ -1,0 +1,14 @@
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\obj\Debug\Services11.csprojResolveAssemblyReference.cache
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\obj\Debug\Services11.csproj.CoreCompileInputs.cache
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\Services11.dll.config
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\Services11.dll
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\Services11.pdb
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\databaseLayerProject.dll
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\EntityFramework.dll
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\databaseLayerProject.pdb
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\bin\Debug\databaseLayerProject.dll.config
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\obj\Debug\Services11.csproj.CopyComplete
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\obj\Debug\Services11.dll
+C:\Users\Borna\Desktop\Desktop Faks\tvz spec\asp.net\ices\src\Yad\Services11\obj\Debug\Services11.pdb

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<records>
+  <Car>
+   <ID>1</ID>
+   <Name>Golos</Name>
+   <Brand>BMW</Brand>
+   <BuyPrice>11</BuyPrice>
+   <SellPrice>22</SellPrice>
+   <Description>efefef</Description>
+  </Car>
+   <Car>
+  <ID>2</ID>
+      <Name>Maxus</Name>
+      <Brand>Audi</Brand>
+      <BuyPrice>11</BuyPrice>
+      <SellPrice>22</SellPrice>
+      <Description>efefef</Description>
+   </Car>
+   <Car>
+      <ID>3</ID>
+      <Name>Golos</Name>
+      <Brand>BMW</Brand>
+      <BuyPrice>11</BuyPrice>
+      <SellPrice>22</SellPrice>
+      <Description>efefef</Description>
+  </Car>
+ 
+</records>

@@ -1,0 +1,24 @@
+﻿@model Vjezba.Web.Models.NarucbaFilter
+
+@using (Html.BeginForm("Index", "Izvjestaj", FormMethod.Post))
+{
+<div class="form-inline" style="margin-bottom: 30px;">
+    <div class="form-group">
+        @Html.TextBoxFor(model => model.KupacIme, htmlAttributes: new { @class = "form-control", placeholder = "Ime Kupca" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(model => model.CarIme, htmlAttributes: new { @class = "form-control", placeholder = "Ime Auta" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(model => model.Prodavac, htmlAttributes: new { @class = "form-control", placeholder = "Prodavac" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(model => model.DucanIme, htmlAttributes: new { @class = "form-control", placeholder = "Prodavaona" })
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Filter" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}

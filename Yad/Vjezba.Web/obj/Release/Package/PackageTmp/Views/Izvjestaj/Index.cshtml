@@ -1,0 +1,97 @@
+﻿@using Vjezba.Web.Models;
+@model Tuple<IEnumerable<Vjezba.Web.Models.Mock.Narudzbe>,double>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div id="filter-wrapper">
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            Model automobila
+        </th>
+        <th>
+            Poslovnica
+        </th>
+        <th>
+            Prodavač
+        </th>
+        <th>
+            Kupac
+        </th>
+        <th>
+            Cijena
+        </th>
+        <th>Profit</th>
+    </tr>
+
+    @foreach (var item in Model.Item1)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Car.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ducani.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prodavac.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kupac.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cijena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.profit)
+        </td>
+    </tr>
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td> </td>
+        <td> Ukupan profit: </td>
+        <td>
+            @Model.Item2
+        </td>
+    </tr></tr>
+</table>
+
+
+@section scripts {
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $.ajax({
+                url: '@Url.Action("FilterForm", "Izvjestaj")',
+                method: "GET",
+                success: function (result) {
+                    $("#filter-wrapper").html(result);
+                }
+            })
+        });
+        
+
+
+        function applyFilter(sender) {
+            var formSerialized = $(sender).closest('form').serialize();
+
+            $.ajax({
+                url: '@Url.Action("Index", "Izvjestaj")',
+                method: "POST",
+                data: formSerialized,
+                success: function (result) {
+                }
+            })
+        }
+
+    </script>
+}
